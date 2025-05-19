@@ -6,4 +6,8 @@ public class Stack {
         stk = new int[10];
         top = -1;
     }
+
+    public boolean isEmpty() {
+        return top == -1;
+    }
 }
