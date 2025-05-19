@@ -14,4 +14,15 @@ public class Stack {
     public boolean isFull() {
         return top == stk.length - 1;
     }
+
+    public int pop() {
+        if (isEmpty()) {
+            System.out.println("Stack is underflow.");
+            return -1;
+        } else {
+            int x = stk[top];
+            top--;
+            return x;
+        }
+    }
 }
