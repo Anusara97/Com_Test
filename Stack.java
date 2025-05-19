@@ -25,4 +25,12 @@ public class Stack {
             return x;
         }
     }
+
+    public void push(int item) {
+        if (isFull()) {
+            System.out.println("Stack is overflow.");
+        } else {
+            stk[++top] = item;
+        }
+    }
 }
