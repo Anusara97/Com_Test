@@ -20,8 +20,7 @@ public class Stack {
             System.out.println("Stack is underflow.");
             return -1;
         } else {
-            int x = stk[top];
-            top--;
+            int x = stk[top--];
             return x;
         }
     }
