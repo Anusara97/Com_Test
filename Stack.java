@@ -30,7 +30,8 @@ public class Stack {
         if (isFull()) {
             System.out.println("Stack is overflow.");
         } else {
-            stk[++top] = item;
+            top++;
+            stk[top] = item;
         }
     }
 }
