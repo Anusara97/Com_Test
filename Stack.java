@@ -4,5 +4,6 @@ public class Stack {
 
     public Stack() {
         stk = new int[10];
+        top = -1;
     }
 }
