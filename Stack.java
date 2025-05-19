@@ -10,4 +10,8 @@ public class Stack {
     public boolean isEmpty() {
         return top == -1;
     }
+
+    public boolean isFull() {
+        return top == stk.length - 1;
+    }
 }
